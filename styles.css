@@ -5,3 +5,25 @@
 :root {
   --bs-body-bg: var(--bs-gray-100);
 }
+.custom-img{
+  width: 300px;
+  height: auto;
+}
+.name{
+  font-family: 'Garamond', serif;
+  font-size: 48px; /* Adjust font size as needed */
+  color: #fff; /* Text color */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #2b4d33, 0 0 70px #2b4d33, 0 0 80px #2b4d33, 0 0 100px; /* Neon glow effect */
+}
+body{
+  background-color: #ccc6ba;
+}.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Optionally center the text within the content div */
+.content {
+  text-align: center;
+}
