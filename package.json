@@ -9,7 +9,7 @@
     "startCommand": "npm start"
   },
   "scripts": {
-    "start": "sirv --dev --no-clear --port 3000"
+    "start": "sass src/styles/main.scss dist/styles/main.css"
   },
   "devDependencies": {
     "sirv-cli": "^2.0.2"
