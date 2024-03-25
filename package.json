@@ -9,7 +9,7 @@
     "startCommand": "npm start"
   },
   "scripts": {
-    "start": "sass src/styles/main.scss dist/styles/main.css"
+    "build": "sass src/styles/main.scss dist/styles/main.css"
   },
   "devDependencies": {
     "sirv-cli": "^2.0.2"
